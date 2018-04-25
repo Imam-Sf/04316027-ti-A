@@ -8,3 +8,6 @@
 div[class*="col-"]{
 	border: 1px solid black;
 }
+.navbar{
+	margin-bottom: 0px;
+}
