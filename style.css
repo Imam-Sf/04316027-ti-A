@@ -8,6 +8,20 @@
 div[class*="col-"]{
 	border: 1px solid black;
 }
+
 .navbar{
 	margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: WHITE;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: BLACK;
+  background-color: transparent;
+}
+
+p{
+	color:white;
 }
