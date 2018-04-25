@@ -14,14 +14,14 @@ div[class*="col-"]{
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: WHITE;
+  color: black;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: BLACK;
+  color: White;
   background-color: transparent;
 }
 
 p{
-	color:white;
+	color:black;
 }
