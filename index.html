@@ -61,7 +61,15 @@ for (i = 0; i < 5; i++) {
 }
 document.getElementById("demo").innerHTML = text;
 </script></h4></div>
-			<div class="col-sm-3 kotak"><h4>Sidebar</h4></div>
+			<div class="col-sm-3 kotak"><h4><p>Display "Good day!" if the hour is less than 18:00:</p>
+
+<p id="kondisi">Good Evening!</p>
+
+<script>
+if (new Date().getHours() < 18) {
+    document.getElementById("kondisi").innerHTML = "Good day!";
+}
+</script></h4></div>
 
 		<div class="row">
 			<div class="col-sm-12">
